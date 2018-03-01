@@ -1,5 +1,5 @@
-class AddDayToShow < ActiveRecord::Migration 
-  def change 
+class AddDayToShow < ActiveRecord::Migration
+  def change
     add_column :shows, :day, :string
-  end 
+  end
 end
